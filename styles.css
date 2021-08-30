@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-weight: 300;
+}
+
+.pre-nav{
+    padding: 10px 50px;
+    font-size: 14px;
+}
+
+.navbar{
+    padding: 0;
+    background-color: hsl(342, 98%, 65%);
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    padding: 25px 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.link:hover{
+    background-color: #fab0c6;
+    color: white;
+}
+
+.container-img{
+    height: 162px;
+    width: 245px;
+    position: absolute;
+    top: -50px;
+    left: 30px;
+    margin: 20px;
+    background-color: white;
+    border: 3px solid #ED2560;
+}
+
+.navbar-img{
+    height: 98px;
+    width: 200px;
+    margin: 32px 22.5px;
+}
+
+.landing-img{
+    height: 530px;
+    width: 100%;
+    background-image: url('./img/image9.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.landing-img div{
+    font-weight: 300;
+    padding: 10em 3em;    
+}
+
+.container h1{
+    font-size: 30px;
+}
+
+.color-text{
+    color: #ED2560;
+    font-size: 30px;
+}
+
+.card-mod{
+    height: 549px;
+    width: 346px;
+}
+
+.titulo-card{
+    font-size: 16px;
+}
+
+.card-bod {
+    font-size: 16px;
+}
+
+.card-button{
+    width: 135px;
+    height: 39px;
+    background-color: #ED2560;
+    border-radius: -10px;
+    color: white;
+    font-weight: 300;
+}
+
+footer{
+    height: 160px;
+    margin: 30px 0;
+    background-color: #ED2560;
+    color: white;
+}
+
+.logo, .policy, .us, .follow{
+    margin: 30px 100px;
+}
+
+footer div p{
+    font-size: 14px;
+}
+
+i{
+    width: 70px;
+    font-size: 30px;
+}
